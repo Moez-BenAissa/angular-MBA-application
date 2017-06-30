@@ -1,4 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
 
 @Pipe({
   name: 'dateFormat'
@@ -6,8 +8,18 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class DateFormatPipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    let d = new Date(date);
-    return moment(d).format('DD/MM/YYYY');
+  if (value == '' || value==undefined)
+    return '';
+
+  var dateValue = new Date();
+  var currentDate = new Date(dateValue.getUTCFullYear(),
+    dateValue.getUTCMonth(),
+    dateValue.getUTCDate(),
+    dateValue.getUTCHours(),
+    dateValue.getUTCMinutes(),
+    dateValue.getUTCSeconds());
+  return currentDate;
+
   }
 
 }
