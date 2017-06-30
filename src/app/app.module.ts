@@ -7,6 +7,7 @@ import { HeaderComponent } from './main/header/header.component';
 import { NavigationComponent } from './main/navigation/navigation.component';
 import { HomeComponent } from './main/home/home.component';
 import { DateFormatPipe } from './pipe/date-format.pipe';
+import { ActivationDirective } from './diretives/activation.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DateFormatPipe } from './pipe/date-format.pipe';
     HeaderComponent,
     NavigationComponent,
     HomeComponent,
-    DateFormatPipe
+    DateFormatPipe,
+    ActivationDirective
   ],
   imports: [
     BrowserModule
