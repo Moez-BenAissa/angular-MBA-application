@@ -6,7 +6,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class DateFormatPipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    return null;
+    let d = new Date(date);
+    return moment(d).format('DD/MM/YYYY');
   }
 
 }
