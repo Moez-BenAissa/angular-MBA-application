@@ -8,6 +8,8 @@ import { NavigationComponent } from './main/navigation/navigation.component';
 import { HomeComponent } from './main/home/home.component';
 import { DateFormatPipe } from './pipe/date-format.pipe';
 import { ActivationDirective } from './diretives/activation.directive';
+import { LoginPopinComponent } from './main/navigation/login-popin/login-popin.component';
+import { LangagesPopinComponent } from './main/navigation/langages-popin/langages-popin.component';
 
 
 
@@ -19,7 +21,9 @@ import { ActivationDirective } from './diretives/activation.directive';
     NavigationComponent,
     HomeComponent,
     DateFormatPipe,
-    ActivationDirective
+    ActivationDirective,
+    LoginPopinComponent,
+    LangagesPopinComponent
   ],
   imports: [
     BrowserModule
