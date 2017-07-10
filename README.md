@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Integrate ngx-bootsrap and Bootstrap 4
 
-please refer to the link below : [BS4](https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md). FUll Documentation is  :  [Here](http://valor-software.com/ngx-bootstrap/#/modals)
+please refer to the link below : [BS4](https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md). Full Documentation is  :  [Here](http://valor-software.com/ngx-bootstrap/#/modals)
 
 
 ## License
