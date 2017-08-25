@@ -1,5 +1,158 @@
 
 #home-container{
-  background-color: rgba(0, 0, 0, 0.1);
-  margin-top: 50px;
+  background-color: #0e9dc9;
+}
+
+#FormWiteBook{
+  background: #0e9dc9;
+  height: 280px;
+  border-radius: 25px;
+  padding-top: 30px;
+}
+.contactForm{
+  background: #0e9dc9;
+  width : 300px;
+}
+
+.WitePaper{
+  background-color:#0e9dc9;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  height: 200px;
+  padding-left: 200px;
+  padding-top: 60px;
+}
+
+.border{
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+slide{
+  height: 590px;
+}
+
+#Sliders{
+
+}
+
+#registration {
+  // background: #12b0c5;
+  padding: 70px 0;
+  height: 380px;
+
+}
+
+#media {
+  // background: #fff;
+  padding: 70px 0;
+  height: 320px;
+  // border-radius: 25px;
+}
+
+.registration-Title-H1{
+  font-size: 42px;
+  font-weight: bold;
+  font-family: sans-serif;
+  align-content:center;
+}
+
+.quote{
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+    margin-top: -28px;
+    opacity: 0.2;
+}
+
+.btn-default{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-collection{
+    border: 2px solid #FFF;
+    color: #fff;
+    cursor: hand;
+
+}
+
+.registration-Title-H2{
+  color: #fff;
+  font-weight: normal;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+h3{
+  color: #fff;
+  font-weight: normal;
+  margin-top: 5;
+  line-height: 2;
+}
+
+.media {
+  background: #FFF;
+  padding: 70px 0;
+  height: 700px;
+}
+.media-inner{
+  border-radius: 5px 5px 5px 5px;
+  background-color:#656d73;
+  position:relative;
+  width:100%;
+  height: 700px;
+
+  transform:rotate(2deg);
+  -ms-transform:rotate(2deg);
+  -moz-transform:rotate(2deg);
+  -webkit-transform:rotate(2deg);
+  -o-transform:rotate(2deg);
+}
+
+#geoloc {
+  // background: #fff;
+  padding: 70px 0;
+  height: 420px;
+  // border-radius: 25px;
+}
+
+#avis {
+  // background: #fff;
+  padding: 70px 0;
+  height: 420px;
+  // border-radius: 25px;
+}
+
+
+#git {
+  // background: #fff;
+  padding: 70px 0;
+  height: 420px;
+  // border-radius: 25px;
+}
+
+
+#services {
+  // background: #fff;
+  padding: 70px 0;
+  height: 420px;
+  // border-radius: 25px;
+}
+
+#author {
+  // background: #fff;
+  padding: 70px 0;
+  height: 480px;
+  // border-radius: 25px;
+}
+
+.authorImg{
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  content: url(../../../assets/images/photoUser.jpg);
 }

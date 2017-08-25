@@ -1,0 +1,41 @@
+
+.profileImg{
+  border-radius:50%;
+  width: 30px;
+  height: 30px;
+  content: url(../../../assets/images/photoUser.jpg);
+}
+.navbar-titles {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-weight: 400;
+    color: #FCFAE1;
+
+}
+.userName{
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+  color: #f29202;
+}
+.brand{
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: 400;
+  color: #f29202;
+}
+.fa-institution{
+    color: #FFF !important;
+}
+.bg-menu{
+  opacity: 0.8;
+  // background-color: #5A5757;
+  z-index: 99999;
+}
+
+.dropdown-toggle {
+  color:#FCFAE1 !important;
+}
+.navbar{
+  z-index: 999999;
+}
+.navbar-toggler{
+  background-color:#FCFAE1 !important;
+}

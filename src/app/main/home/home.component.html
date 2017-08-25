@@ -1,20 +1,125 @@
-<div class="container" id = "home-container">
-  <section id="Sliders">
-    <p>
-      Here sliders !
-    </p>
+<div id = "home-container">
+  <app-navigation></app-navigation>
+  <section id = "FormWiteBook" class="container" >
+    <div class="row ">
+      <div class="col-8 WitePaper">
+      <p> <i class="fa fa-file-text-o"></i>  Wite Paper: <br>Mozium testing and best practices</p>
+      </div>
+      <div class="contactForm form-group" >
+        <form class="border" action="#" method="post">
+          <input type="text" class="form-control" name="firstName" placeholder="First Name*" >
+          <input type="text" class="form-control" name="lastName" placeholder="Last Name*" >
+          <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Email*" >
+          <input type="text" class="form-control" name="country" placeholder="Country" >
+          <button type="submit" class=" btn btn-primary" >Download <i class="fa fa-cloud-download"></i></button>
+        </form>
+      </div>
+    </div>
   </section>
 
-  <section id="Inofrmations">
-    <p>
-      Here informations !
-    </p>
+  <section id="Sliders" class="container ">
+
+    <carousel>
+      <slide>
+        <img src="https://media.timeout.com/images/103042848/image.jpg" alt="Appel is cheek">
+        <div class="carousel-caption">
+          <h3>Mozium sera à Londre en 2018</h3>
+          <p>Un conférence et un webbenair seront organisés en Mai prochain!</p>
+          <a href="#" class="btn btn-collection text-center">Inscrivez-vous ici ?</a>
+        </div>
+      </slide>
+      <slide>
+        <img src="https://sandaya58xe2prod.dxcloud.episerver.net/globalassets/4-regions/decouvrir-la-region-de-paris-hd.jpg?w=1280&h=545&scale=both&mode=crop&dpi=90" alt="Chaussure Chic">
+        <div class="carousel-caption">
+          <h3>Mozium est à Paris depuis 2015</h3>
+          <p>Plusieurs clients sont qui utilisent Mozium sont à Paris!</p>
+        </div>
+      </slide>
+      <slide>
+        <img src="http://www.visiter-newyork.com/wp-content/uploads/2017/06/new-york-540807_1280.jpg" alt="Voiture">
+        <div class="carousel-caption">
+          <h3>Mozium était à NewYork en 2016</h3>
+          <p>Mozium a fait l'objet d'un grand workshop à NewYork, et on a 5 clients intéressés!</p>
+        </div>
+      </slide>
+    </carousel>
   </section>
 
-  <section id="Tables">
-    <p>
-      Here Tables !
-    </p>
+
+
+  <section id="registration" class="container">
+
+  	<div class="container">
+  		 <div class="row">
+           <p>
+               <img class="quote" src="http://getneptune.com/images/intro-quote-open.svg">
+               <span class="registration-Title-H1 text-center">Mozium, est plus qu'un Framework, c'est un nouveau mode de test </span>
+               <img class="quote" src="http://getneptune.com/images/intro-quote-close.svg">
+          </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        		<div class="col">
+        			<h2 class="text-center registration-Title-H2 ">Vous voulez rejoindre la communité Mozium ?</h2>
+        			<p class="text-center registration-Title-H2">Vous chercher a apprendre les bonnes pratiques du testing?</p>
+        			<a href="#" class="btn btn-default btn-block subscribe text-center">Insrivez-vous</a>
+        		</div>
+        </div>
+    </div>
+
+	</section>
+
+  <section id="geoloc" class="container">
+    <h1>Ou est installé Mozium : Map</h1>
+    <h1>Clients</h1>
+  </section>
+
+  <section id="avis" class="container">
+    <h1>Qu'est ce qu'ils disent sur Mozium?</h1>
+  </section>
+
+  <section id="git" class="container">
+
+      -------------------------------------------------------------------------------------------------
+    <h1>Git</h1>
+    <p>Mozium n'est pas open source.</p>
+    <p>Il est sur git : </p><a href="https://github.com/Ben-MBA/Mozium">Mozium repo</a>
+    <h1>Documentation</h1>
+    <p>Un WIKI est mit à disposition pour se documenter sur Mozium</p>
+    <a href="https://github.com/Ben-MBA/Mozium/wiki/0--Home">WIKI</a>
+    <h1>Pricing</h1>
+    <p>The price is not defined yet. please contact us on </p> <a href="mailto:moez.benaissa@gmail.com"><i>contact@mozium.com</i></a>
+  </section>
+
+  <section id="services" class="container">
+    -------------------------------------------------------------------------------------------------
+    <H2>Les services majeurs de Mozium sont :  </H2>
+
+      <p>Tests Web fonctionnels Multi-browser</p>
+      <p>Tests Apps fonctionnels Multi Multi-Device</p>
+      <p>Intègration Continue avec jenkins</p>
+      <p>Reporting</p>
+      <p>...</p>
+  </section>
+
+  <section id="author" class="container">
+
+      -------------------------------------------------------------------------------------------------
+      <div class="row">
+        <img class="authorImg" alt="Moez Ben Aissa">
+        <div class="col-3">
+
+        </div>
+        <div class="">
+            <H1> En bref : </H1>  <p>Spécialist Test automatisé, Manager, développeur full stack</p>
+            <H1>Utilisateur Git</H1> <p>Ben-MBA</p>
+            <H1>LikedIn : </H1> <a href="#">Moez Ben Aissa</a>
+            <h1>Site</h1><a href="#">google site</a>
+        </div>
+      </div>
+    <p> </p>
   </section>
 
 </div>
